@@ -1,0 +1,279 @@
+html, body{
+  overflow-x: hidden;
+}
+.bg-img{
+  width: 100%;
+}
+#logo{
+  padding: 2%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.logo-btn{
+  color: 	#ff52bf;
+  border-color: 	#ff52bf;
+  width: 7rem;
+}
+h1{
+  font-size: 2.7rem;
+  font-family: 'Poppins-bold', sans-serif;
+  font-weight: 700;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+#intro{
+  text-align: center;
+  padding: 10% 5% 3% 5%;
+}
+
+.container-fluid{
+  padding: 0 28%;
+}
+.intro-btn{
+  color: white;
+  background-color: #ff52bf;
+  width: 18rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.intro-img{
+  margin: 10% auto;
+}
+#info{
+text-align: center;
+padding: 0 15% 5% 15%;
+}
+.infoh1{
+  font-size: 5rem;
+  font-family: 'Poppins-bold', sans-serif;
+  font-weight: 700;
+}
+.infop{
+  color: grey;
+}
+.info-div-img{
+  position: relative;
+  left: -4.5rem;
+  padding-bottom: 2%;
+}
+@media (max-width:770px) {
+  body{
+    text-align: center;
+  }
+  .factors-bg-img2{
+    display: block;
+  }
+  .factors-bg-img1{
+    display: none;
+  }
+  .factors-bg-img4{
+    display: block;
+  }
+  .factors-bg-img3{
+    display: none;
+  }
+  .factors-bg-img6{
+    display: block;
+  }
+  .factors-bg-img5{
+    display: none;
+  }
+  .factors-bg-img8{
+    display: block;
+  }
+  .factors-bg-img7{
+    display: none;
+  }
+  .end-bg-img2{
+    display: block;
+  }
+  .end-bg-img1{
+    display: none;
+  }
+  .factors-div1{
+    display: none;
+  }
+  .factors-div3{
+    display: none;
+  }
+  .end-div{
+    display: none;
+  }
+
+
+}
+@media (min-width: 770px) {
+  .factors-bg-img1{
+    display: block;
+  }
+  .factors-bg-img2{
+    display: none;
+  }
+  .factors-bg-img3{
+    display: block;
+  }
+  .factors-bg-img4{
+    display: none;
+  }
+  .factors-bg-img5{
+    display: block;
+  }
+  .factors-bg-img6{
+    display: none;
+  }
+  .factors-bg-img7{
+    display: block;
+  }
+  .factors-bg-img8{
+    display: none;
+  }
+  .end-bg-img1{
+    display: block;
+  }
+  .end-bg-img2{
+    display: none;
+  }
+
+  .factors-div1-swap{
+    display: none;
+  }
+  .factors-div3-swap{
+    display: none;
+  }
+  .end-div-swap{
+    display: none;
+  }
+}
+
+.factors-div1{
+  background-color: 	#f5faff;
+  padding: 5% 8%;
+  margin-right: 0;
+  margin-top: -2px;
+}
+.factors-div1-swap{
+  background-color: 	#f5faff;
+  padding: 5% 8%;
+  margin-right: 0;
+  margin-top: -2px;
+}
+.factors-div1ah1{
+  margin-top: 25%;
+  font-family: 'Poppins-bold', sans-serif;
+  font-weight: 700;
+}
+.factors-div1a{
+padding: 3%;
+}
+.factors-div3a{
+  padding: 5%;
+}
+
+
+.factors-div1-img{
+  width: 40rem;
+}
+.factors-div2{
+  padding: 10% 8%;
+}
+.factors-div2b{
+  padding-left: 8%;
+}
+.factors-div2bh1{
+  margin-top: 20%;
+  font-family: 'Poppins-bold', sans-serif;
+  font-weight: 700;
+}
+
+.factors-div3{
+  background-color: #f5faff;
+  padding: 2% 8%;
+  margin-right: 0;
+  margin-top: -2px;
+}
+.factors-div3-swap{
+  background-color: #f5faff;
+  padding: 0 8%;
+  margin-right: 0;
+  margin-top: -2px;
+}
+.factors-div3ah1{
+  margin-top: 15%;
+  font-family: 'Poppins-bold', sans-serif;
+  font-weight: 700;
+}
+
+#start{
+  text-align: center;
+  padding: 10%;
+}
+.starth1{
+  line-height: 5rem;
+  font-family: 'Poppins-bold', sans-serif;
+  font-weight: 700;
+}
+.start-btn{
+  color: white;
+  background-color: #ff52bf;
+  width: 20rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.end-div{
+  background-color: #00252e;
+  color: white;
+  padding: 7%;
+  margin-right: 0;
+  margin-top: -2px;
+}
+.end-div-swap{
+  background-color: #00252e;
+  color: white;
+  padding: 7%;
+  margin-right: 0;
+  margin-top: -2px;
+}
+.end-div1 p{
+  margin-top: 25px;
+  width: 22rem;
+}
+.end-div2 {
+  padding: 0 11%;
+}
+.phone{
+  float: left;
+  margin-right: 15px;
+  margin-top: 12px;
+}
+.email{
+  float: left;
+  margin-right: 15px;
+  margin-top: 12px;
+}
+.end-btn{
+  border-radius: 5%;
+  background-color: #ff52bf;
+  color: white;
+  margin-left: 2rem;
+  width: 7rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.end-form{
+  height: 2.5rem;
+}
+.fab{
+  margin: 3% 3% 0 0;
+}
+.end-div1{
+  padding: 3%;
+}
+.end-div2{
+  padding: 3%;
+}
+.attribution{
+  text-align: center;
+}
